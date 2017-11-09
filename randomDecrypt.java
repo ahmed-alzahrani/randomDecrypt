@@ -95,6 +95,7 @@ public class randomDecrypt{
     for (int i = 0; i <= iterations; i++) {
       predictArray.add(0L);
     }
+  }
 
   // runIteration handles the logic of the script, it gets the next prediction, adds it to the array, makes sure the arrays are balanced and evaluates if there is a match.
   public static void runIteration(long seed) {
