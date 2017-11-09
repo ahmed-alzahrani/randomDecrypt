@@ -7,7 +7,7 @@ public class randomDecrypt{
   private static final long mask = (1L << 48) - 1; // bit mask for the modulo operation used in the PRNG
   private static int iterations = 1; // iterations it took us to find the seed
   private static long seed;
-  private static Random rand = new Random(); //the instance of random we we will
+  private static Random rand = new Random(); //the instance of random we we will be finding the seed of
   private static ArrayList<Long> randArray = new ArrayList<>();
   private static ArrayList<Long> predictArray = new ArrayList<>();
   private static int matches = 0;
